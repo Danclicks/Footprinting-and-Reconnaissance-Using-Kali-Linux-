@@ -1,0 +1,42 @@
+Footprinting and Reconnaissance Using Kali Linux
+
+Project Overview
+
+This repository documents a practical cybersecurity internship exercise on Footprinting and Reconnaissance using Kali Linux.
+
+The project focuses on gathering publicly available information about a target domain using six different command-line tools.
+
+Target Domain: networkwalks.com
+
+Objectives
+
+- Retrieve public domain registration information.
+- Identify website technologies and frameworks.
+- Resolve domain names into IP addresses.
+- Analyse HTTP response headers.
+- Detect Web Application Firewall (WAF) protection.
+- Enumerate publicly available DNS records.
+
+Tools and Commands
+
+Tool| Command| Purpose
+WHOIS| "whois networkwalks.com"| Domain registration lookup
+WhatWeb| "whatweb networkwalks.com"| Technology fingerprinting
+NSLOOKUP| "nslookup networkwalks.com"| DNS resolution
+CURL| "curl -I https://networkwalks.com"| HTTP header analysis
+WAFW00F| "wafw00f networkwalks.com"| WAF detection
+DNSRECON| "dnsrecon -d networkwalks.com"| DNS enumeration
+
+Skills Practised
+
+- Footprinting and reconnaissance.
+- Domain information gathering.
+- DNS analysis.
+- Website technology identification.
+- HTTP header inspection.
+- Basic web security assessment.
+- Kali Linux command-line operations.
+
+Learning Outcomes
+
+This exercise provided practical exposure to reconnaissance techniques and demonstrated how different Kali Linux tools can be used to gather information about a website's publicly accessible infrastructure.
